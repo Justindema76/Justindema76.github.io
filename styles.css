@@ -1,0 +1,71 @@
+/* Reset some default styles and provide a basic layout */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Verdana', sans-serif; /* Add your preferred font-family here */
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Add styles for the logo */
+.logo {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+}
+
+.logo img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+}
+
+/* Style the main content section */
+section {
+    padding: 20px;
+}
+
+/* Style the video container */
+.video-container {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
