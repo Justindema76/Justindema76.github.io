@@ -85,7 +85,7 @@ section {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 15px; /* Adjust the font size for the footer navigation */
+    font-size: 12px; /* Adjust the font size for the footer navigation */
     transition: color 0.3s; /* Add smooth transition effect */
 }
 
