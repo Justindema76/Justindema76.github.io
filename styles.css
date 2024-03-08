@@ -1,29 +1,35 @@
-/* Reset some default styles and provide a basic layout */
-body, h1, h2, h3, p, ul {
+/* Your existing CSS styles */
+
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-}
-
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    position: relative;
+    background: url('TOP-HEADER.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(251, 251, 251);
+    padding: 50px;
+    text-align: center;
 }
 
 h1 {
+    font-size: 5em; /* Adjust the font size as needed */
     margin: 0;
-    font-family: 'Verdana', sans-serif; /* Add your preferred font-family here */
 }
 
-/* Style the navigation bar */
+h2 {
+    font-size: 2em; /* Adjust the font size as needed */
+    margin: 0;
+    font-style: italic;
+}
+
 nav {
-    background-color: #555;
-    padding: 10px;
+    background-color: #000;
+    padding: 7px;
+    text-align: center; /* Center the entire navigation bar */
 }
 
 nav ul {
@@ -39,23 +45,18 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.3s; /* Add smooth transition effect */
 }
 
-/* Add styles for the logo */
-.logo {
-    position: absolute;
-    top: 10px; /* Adjust the top position as needed */
-    right: 10px; /* Adjust the right position as needed */
+nav a:hover {
+    color: #5f40ed; /* Change the color on hover */
 }
 
-.logo img {
-    width: 50px; /* Adjust the width as needed */
-    height: auto;
-}
-
-/* Style the main content section */
+/* Styles for the main content section */
 section {
-    padding: 20px;
+    padding: 30px;
 }
 
 /* Style the video container */
@@ -63,9 +64,15 @@ section {
     text-align: center;
 }
 
+
+
 footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    background: url('TOP-HEADER.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(251, 251, 251);
+    padding: 20px;
     text-align: center;
+    font-size: 14px;
+    
 }
