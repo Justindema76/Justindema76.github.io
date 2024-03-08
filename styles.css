@@ -73,3 +73,6 @@ footer {
     text-align: center;
     font-size: 14px; /* Adjust the font size for the footer text */
 }
+.centered-text {
+    text-align: center;
+  }
