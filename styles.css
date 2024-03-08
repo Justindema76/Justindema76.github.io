@@ -4,6 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(222, 215, 250);
 }
 
 header {
@@ -62,6 +63,34 @@ section {
 /* Style the video container */
 .video-container {
     text-align: center;
+}
+.footer-nav {
+    background: url('TOP-HEADER.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-nav ul {
+    list-style: none;
+}
+
+.footer-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px; /* Adjust the font size for the footer navigation */
+    transition: color 0.3s; /* Add smooth transition effect */
+}
+
+.footer-nav a:hover {
+    color: #5f40ed; /* Change the color on hover */
 }
 
 
