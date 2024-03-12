@@ -4,7 +4,7 @@ body {
     margin: 0px;
     padding: 0px;
     line-height: 1.1;   
-    background-color: rgb(64, 66, 175);
+    background-color: rgb(195, 195, 200);
 }
 
 
@@ -84,8 +84,9 @@ footer {
 }
 .centered-text {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
   }
 
 .round-corners-logo {
@@ -107,7 +108,7 @@ h3 {
 p{
     margin-bottom: 1px;
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 ul{
@@ -115,15 +116,6 @@ ul{
 }
 h2 {
     font-style: italic;
-    font-weight: 100;
-}
-main {
-    max-width: 70%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 50px;
-    box-shadow: 0 10 10px rgba(0, 0, 0, 0.5);
-    border: 50px solid rgb(0, 0, 0);
-}
+    font-weight: 100;}
+
 
