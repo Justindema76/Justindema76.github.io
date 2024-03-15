@@ -131,3 +131,20 @@ main {
     background-color: rgb(133, 146, 174);
     
 }    
+.container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    width: 800px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin: 0 auto; /* This will center the container horizontally */
+}
+.header, .footer {
+    height: 200px; /* Adjust this value to match the height of your main content */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    margin: 0 auto; /* Center horizontally */
+    width: 800px; /* Match the width of the main content */
+}
