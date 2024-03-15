@@ -2,7 +2,7 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 0px;
-    padding: 0px;
+    padding-left: 0px;
     line-height: 1.1;   
     background-color: rgb(195, 195, 200);
 }
@@ -66,13 +66,10 @@ nav a:hover {
 
 section {
     padding: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-
-.video-container {
-    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    border: #000;
+    border-width: 10px;
 }
 
 footer {
