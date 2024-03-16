@@ -42,6 +42,8 @@ button{
     padding: 5px 10px 5px 10px;
     border-style: solid;
     border-color: rgb(196, 196, 196);
+    margin-left: 1px;
+    margin-right: 1px;
 
     }
     button:hover {
@@ -73,7 +75,7 @@ nav ul li {
 section {
     padding: 5px;
     margin-left: 50px;
-    margin-right: 80px;
+    margin-right: 50px;
     border: #000;
     border-width: 10px;
 }
