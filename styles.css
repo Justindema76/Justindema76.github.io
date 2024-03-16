@@ -4,7 +4,7 @@ body {
     margin: 0px;
     padding-left: 0px;
     line-height: 1.1;   
-    background-color: rgb(195, 195, 200);
+    background-color: rgb(196, 196, 196);
 }
 
 
@@ -30,6 +30,26 @@ header {
     margin: 0;
     font-style: italic;
 }
+button{
+    background-color: rgb(196, 196, 196);
+    border-width: 1px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.3s;
+    padding: 5px 10px 5px 10px;
+    border-style: solid;
+    border-color: rgb(196, 196, 196);
+
+    }
+    button:hover {
+        color:  rgb(196, 196, 196); 
+        background-color: #000;
+        transition: .15s;
+        
+    }
 
 nav {
     background-color: #000;
@@ -49,25 +69,11 @@ nav ul li {
    
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: none;
-    font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: color 0.3s;
-    
-}
-
-nav a:hover {
-    color: #131eed; 
-}
-
 
 section {
     padding: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 80px;
     border: #000;
     border-width: 10px;
 }
@@ -99,17 +105,20 @@ footer {
     font-size: 35px;
     font-weight: bolder;
     font-style: italic;
+    margin-top: 30px;
 }
 h3 {
     font-family: "Dancing Script", sans-serif;
     font-size: 20px;
     font-weight: bolder;
     font-style: italic;
+    margin-bottom: 5px;
 }
 p{
     margin-bottom: 1px;
     margin-top: 10px;
     font-size: 16px;
+    
 }
 
 ul{
@@ -120,6 +129,11 @@ h2 {
     font-weight: 100;
 }
     
-
+main{
+   
+   
+    
+   
+}
     
 
