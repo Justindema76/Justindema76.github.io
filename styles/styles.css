@@ -16,7 +16,7 @@ header {
     padding: 20px;
     text-align: center;
     top: 0;
-    width: 1000px;
+    z-index: 1000;
     
 }
 .title-text {
@@ -60,6 +60,7 @@ nav {
     text-align: center; 
     z-index: 1000;
     top: 60px;
+    margin: auto;
 }
 
 nav ul {
@@ -91,6 +92,7 @@ footer {
     text-align: center;
     font-size: 14px; 
     margin-top: 20px;
+    z-index: 1000;
    
 }
 .centered-text {
@@ -136,7 +138,7 @@ h2 {
    
 .e9d {
     background-color: rgb(0, 0, 0);
-    width: 800px;
+    max-width: 800px;
     padding-top: 1cqi;
     padding-bottom: 20px;
     padding-left: 15px;
@@ -203,6 +205,7 @@ h2 {
   width: 200px;
   text-align: center;
   border-radius: 5px;
+  color: white;
  
 }
 
