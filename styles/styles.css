@@ -95,12 +95,7 @@ footer {
     z-index: 1000;
    
 }
-.centered-text {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-  }
+
 
 .round-corners-logo {
     border-radius: 4px;
@@ -217,18 +212,37 @@ h2 {
   }
   
   .box {
-    width: 400px;
+    width:  350px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 25px;
-    margin-left: 25px;
-    border-style: double;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: solid;
     text-align: left; /* Align the text to the left */
     padding: 10px; /* Add padding for better readability */
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(131, 131, 131);
     border-width: 5px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
     
   }
+
+  .box2 {
+    width:  400px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-style: solid;
+    text-align: left; /* Align the text to the left */
+    padding: 10px; /* Add padding for better readability */
+    background-color: rgb(131, 131, 131);
+    border-width: 5px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    
+  }
+
   .border {
     background-color: rgb(196, 196, 196);
     max-width: 900px; /* Adjust the width as needed */
@@ -241,12 +255,51 @@ h2 {
     margin: 10px auto; /* Set margin to auto to horizontally center */
     border-radius: 10px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
+    
+}
+
+p {
+    padding-left: 20px;
+}
+  
+ul {
+    margin-left: 10px;
+}
+
+.ul1 {
+margin-left: 0;
+}
+ 
+.trios-logo {
+    margin-left: 120px;
+    margin-top: 5px;
     
 }
 
 
-  
-  
-  
-  
+
+.bottom {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.centered-text {
+    text-align: center;
+    margin-right: 20px; /* Adjust spacing between text and image if needed */
+}
+
+.dragon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+  object-position: center;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+    
+
+    
