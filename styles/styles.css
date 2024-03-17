@@ -4,7 +4,7 @@ body {
     margin: 0px;
     padding-left: 0px;
     line-height: 1.1;   
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(196, 196, 196);
 }
 
 
@@ -205,22 +205,7 @@ h2 {
  
 }
 
-.border {
-    background-color: rgb(196, 196, 196);
-    width: 900px;
-    
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 15px;
-    font-family: arial;
-   
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border-width: 2px;
-    border-style: solid;
-    margin-bottom: 10px;
-    margin-top: 10px;   
-}
+
 
 .container {
     display: flex;
