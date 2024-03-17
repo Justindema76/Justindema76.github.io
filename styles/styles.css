@@ -231,7 +231,7 @@ h2 {
   }
   .border {
     background-color: rgb(196, 196, 196);
-    width: 900px; /* Adjust the width as needed */
+    max-width: 900px; /* Adjust the width as needed */
     padding-top: -5px;
     padding-bottom: 10px;
     padding-left: 15px;
